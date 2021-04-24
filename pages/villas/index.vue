@@ -20,6 +20,13 @@ export default {
 			bg: encodeURI(`/вили-халкидики`).trim(),
 			ru: encodeURI(`/халкидики-виллы`).trim()
 		}
+		/*
+		paths: {
+			en: encodeURI(`/villas`).trim(),
+			bg: encodeURI(`/villas_bg`).trim(),
+			ru: encodeURI(`/villas_ru`).trim()
+		}
+		*/
 	},
 
     async asyncData({store, payload}){
